@@ -11,40 +11,54 @@
     <link rel="stylesheet" href="prof.css" />
   </head>
   <body>
-    <div class="first">
-     
-      <div class="img1"></div>
-      <div class="name">
-        <h1>ASOGWA PERPETUAL</h1>
-        <p class="job">Frontend Developer</p>
-        <div class="button">
-          <a href="resume.html"><div>RESUME</div></a>
-          <a href=""impedit><div>CONTACT</div></a>
+    <div id="time" data-testid="currentTimeUTC">
+      <p>
+        <span id="hour"></span> : <span id="minute"></span> :
+        <span id="second"></span>
+      </p>
+    </div>
+    <main class="first">
+      <div>
+        <div class="img">
+          <img
+            src="/src/slackimg.jpg"
+            data-testid="slackDisplayPicture"
+            alt="Asogwa Perpetual on slack"
+          /> 
+        </div>
+        <div class="name">
+          <h1 data-testid="slackDisplayName">PERPETUAL</h1>
+          <p class="job">Frontend Developer</p>
+        <p class="email" data-testid="slackEmail">perpetualuchechukwu808@gmail.com</p>
         </div>
       </div>
-    </div>
+    </main>
     <div class="sect2">
       <div class="about">
         <h2>ABOUT ME</h2>
         <p>
-          I am a seasoned Frontend web developer with experience in building
-          highly responsive and maintainable websites and web applicatiions. I
-          work with a variety of cutting-edge technologies such as React.js,
-          Tailwind CSS and Angular.
+          I am a beginner Frontend web developer with experience from bootcamps, internships and personal projects. I use tools like HTML, CSS and JavaScript.
         </p>
       </div>
       <div class="partition"></div>
       <div class="vision">
         <h2>MY VISION</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nesciunt facilis fugiat nam optio minima dignissimos accusantium impedit laborum quia, natus nihil cumque accusamus rem odio similique itaque quisquam eveniet?
-        Cumque deserunt ullam voluptas debitis ab officiis, nisi quam repellat accusamus porro dolor et officia saepe tempora rem molestias, libero ad? Voluptatibus quo nesciunt sapiente laborum assumenda totam exercitationem. Unde.
-        Qui amet, incidunt ducimus dignissimos error vitae non rem quisquam distinctio eveniet quo hic quasi adipisci repudiandae repellat quam nisi autem excepturi aspernatur fugit omnis perspiciatis voluptate laudantium. Veniam, quis!
-        Accusantium placeat eos, ducimus quae veniam nam mollitia quis sequi quibusdam ullam, eius aliquam tempore molestias hic temporibus recusandae in nostrum, officiis laboriosam esse at assumenda! Nihil sed non perferendis?</p>
+        <p>
+          Over the next two years, after being grounded in web development, I plan to switch tracks to web3 development. Within this two-year time frame, I hope to gain enough proficiency in web3 tools like Solidity, Smart Contract development and a host of other skills which would make me a blockchain engineer by then.
+        </p>
       </div>
     </div>
-     <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-      </div>
+    <div class="hng">
+      <a href="https://www.hng.tech/learn" data-testid="hngLink">Join our Internship Today</a>
+      <a href="https://www.keyword.dog" data-testid="keywordLink">Keyword Link Attribute</a>
+      <a href="scrapeanyweb.site" data-testid="scrapeAnyWebLink">Scrapeanyweb</a>
+    </div>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
     <script src="prof.js"></script>
   </body>
 </html>
